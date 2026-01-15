@@ -1,0 +1,117 @@
+.productdisplay
+{
+    display: flex;
+    margin: 0px 170px;
+}
+.productdisplay-left
+{
+    display: flex;
+    flex-direction: row;
+    gap:16px; 
+}
+.productdisplay-img-list img
+{
+    height: 113px;
+    margin-top: 10px;
+}
+.productdisplay-main-img
+{
+    height: 500px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.productdisplay-right
+{
+    margin: 0px 70px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+.productdisplay-right-stars
+{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+.productdisplay-right-prices
+{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.productdisplay-right-price-old
+{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productdisplay-right-price-new
+{
+    color: #ff4141;
+}
+.productdisplay-right-size h2{
+    margin-top: 30px;
+    color: #d94f4f;
+    font-size:larger;
+    font-weight: 600;
+}
+.productdisplay-right-sizes 
+{   
+    display:flex;
+    margin-top: 50px;
+    height: 50px;
+    width: 350px;
+    background: #f1f0f0;
+    gap: 5px;
+    border-radius: 2px;
+}
+.productdisplay-right-sizes div
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    border: 1px solid #cebfbf;
+    border-radius: 3px;
+    cursor: pointer;
+    align-content: center;
+}
+.productdisplay-right-sizes div:hover
+{
+    background: black;
+    color: white;
+}
+.productdisplay-right button
+{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-top:30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.productdisplay-right-category
+{
+    margin-top: 30px;
+    padding-top: -60px;
+}
+
+.productdisplay-right-description
+{
+    margin-top:-20px;
+}

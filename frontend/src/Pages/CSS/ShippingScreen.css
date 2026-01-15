@@ -1,0 +1,69 @@
+.shipping-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  line-height: 30px;
+}
+
+.shipping-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shipping-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.shipping-form label {
+  display:inline;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+
+.shipping-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.row
+{ 
+  display: flex;
+  width: 500px;
+  gap:50px;
+  margin-top: 10px;
+}
+
+
+
+@media (min-width: 600px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+.shipping-form button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.shipping-form button:hover {
+  background-color: #0056b3;
+}

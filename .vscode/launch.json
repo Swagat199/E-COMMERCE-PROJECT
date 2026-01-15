@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://schemastore.azurewebsites.net/schemas/json/package.json':",
+            "request": "launch",
+            "url": "https://schemastore.azurewebsites.net/schemas/json/package.json':"
+        }
+    ]
+}
