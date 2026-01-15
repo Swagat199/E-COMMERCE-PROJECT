@@ -3,7 +3,6 @@ import { Hero } from '../Components/Hero/Hero'
 import { Popular } from '../Components/Popular/Popular'
 import { Offer } from '../Components/offers/Offers'
 import { NewCollections } from '../Components/NewCollections/NewCollections'
-import { Item } from '../Components/Item/Item'
 import { NewsLetter } from '../Components/NewsLetter/NewsLetter'
 export const Shop = () => {
   return (
