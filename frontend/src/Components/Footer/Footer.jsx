@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 export const Footer = () => {
 
 
-    const [menu, setMenu] = useState(false);
+    //const [menu, setMenu] = useState(false);
   return (
     <div className='footer'>
         <div className='footer-logo'>
@@ -19,8 +19,8 @@ export const Footer = () => {
             <li>Company</li>
             <li>Product</li>
             <li>Offices</li>
-            <li onClick={()=>{setMenu("about")}}><Link  style={{ textDecoration:'none' }}to='/about'>About</Link></li>
-            <li onClick={()=>{setMenu("contact")}}><Link  style={{ textDecoration:'none' }}to='/contact'>Contact</Link></li>
+            <li ><Link  style={{ textDecoration:'none' }}to='/about'>About</Link></li>
+            <li ><Link  style={{ textDecoration:'none' }}to='/contact'>Contact</Link></li>
         </ul>
         <div className='footer-social-icon'>
             <div className='footer-icons-container'>
