@@ -19,7 +19,7 @@ export const LoginSignup = () => {
   {
     console.log("Login function executed",formData);
     let responseData;
-      await fetch('http://localhost:4000/api/login',{
+      await fetch(`${process.env.REACT_APP_API_URL}/api/login`,{
         method:'POST',
         headers:{Accept:'application/form-data','Content-Type':'application/json'
         },
@@ -42,7 +42,7 @@ export const LoginSignup = () => {
     {
       console.log("Sign Up function executed",formData);
       let responseData;
-      await fetch('http://localhost:4000/api/signup',{
+      await fetch(`${process.env.REACT_APP_API_URL}/api/signup`,{
         method:'POST',
         headers:{Accept:'application/form-data','Content-Type':'application/json'
         },
